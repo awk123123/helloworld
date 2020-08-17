@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-  res.send('Keel auto pull image and deploy!!!')
+  res.send('Keel auto pull image and deploy!!! DONE.........')
 })
 
 app.listen(port, () => {
