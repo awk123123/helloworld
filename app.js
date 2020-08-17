@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-  res.send('Rita BB I LOVE U 3000 <3<3<3<3\nTry Kubernetes continuous deployment!!!!')
+  res.send('Keel auto pull image and deploy!!!')
 })
 
 app.listen(port, () => {
